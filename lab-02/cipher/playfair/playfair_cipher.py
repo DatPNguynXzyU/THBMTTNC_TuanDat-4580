@@ -50,7 +50,7 @@ class PlayFairCipher:
         return encrypted_text
 
     def playfair_decrypt(self, cipher_text, matrix):
-        cipher_text - cipher_text.upper()
+        cipher_text = cipher_text.upper()
         decrypted_text = ""
         decrypted_text1 = ""
 
