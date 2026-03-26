@@ -1,0 +1,11 @@
+# Ignore generated RSA keys
+*.pem
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments (if you make one later)
+venv/
+env/
